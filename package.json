@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-reach-variants",
+  "version": "0.0.0-experimental",
+  "description": "adds tailwind variants for using with reach.tech ui elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "reach",
+    "react",
+    "css",
+    "selectors",
+    "arbitrary",
+    "variants"
+  ],
+  "author": "Muhamad Alfaifi (muhamad.alfaifi@gmail.com)",
+  "license": "MIT"
+}

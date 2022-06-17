@@ -1,0 +1,211 @@
+{
+    "accordion": {
+        "DEFAULT": "[data-reach-accordion]",
+        "button": {
+            "DEFAULT": "[data-reach-accordion-button]",
+            "expanded": "[aria-expanded]",
+            "disabled": "[disabled]"
+        },
+        "item": {
+            "DEFAULT": "[data-reach-accordion-item]",
+            "open": "[data-state='open']",
+            "collapsed": "[data-state='collapsed']",
+            "disabled": "[data-disabled]",
+            "read-only": "[data-read-only]"
+        },
+        "panel": {
+            "DEFAULT": "[data-reach-accordion-panel]",
+            "open": "[data-state='open']",
+            "collapsed": "[data-state='collapsed']",
+            "disabled": "[data-disabled]"
+        }
+    },
+    "alert-dialog": {
+        "label": {
+            "DEFAULT": "[data-reach-alert-dialog-label]"
+        },
+        "description": {
+            "DEFAULT": "[data-reach-alert-dialog-description]"
+        },
+        "overlay": {
+            "DEFAULT": "[data-reach-alert-dialog-overlay]"
+        },
+        "content": {
+            "DEFAULT": "[data-reach-alert-dialog-content]"
+        }
+    },
+    "checkbox": {
+        "DEFAULT": "[data-reach-custom-checkbox]",
+        "checked": "[data-state='checked']",
+        "unchecked": "[data-state='unchecked']",
+        "mixed": "[data-state='mixed']",
+        "container": {
+            "DEFAULT": "[data-reach-custom-checkbox-container]",
+            "checked": "[data-state='checked']",
+            "unchecked": "[data-state='unchecked']",
+            "mixed": "[data-state='mixed']"
+        },
+        "input": {
+            "DEFAULT": "[data-reach-custom-checkbox-input]",
+            "checked": "[aria-checked='true']",
+            "unchecked": "[aria-checked='false']",
+            "mixed": "[aria-checked='mixed']"
+        }
+    },
+    "combobox": {
+        "DEFAULT": "[data-reach-combobox]",
+        "idle": "[data-state='idle']",
+        "suggesting": "[data-state='suggesting']",
+        "navigating": "[data-state='navigating']",
+        "interacting": "[data-state='interacting']",
+        "input": {
+            "DEFAULT": "[data-reach-combobox-input]",
+            "idle": "[data-state='idle']",
+            "suggesting": "[data-state='suggesting']",
+            "navigating": "[data-state='navigating']",
+            "interacting": "[data-state='interacting']"
+        },
+        "popover": {
+            "DEFAULT": "[data-reach-combobox-popover]",
+            "idle": "[data-state='idle']",
+            "suggesting": "[data-state='suggesting']",
+            "navigating": "[data-state='navigating']",
+            "interacting": "[data-state='interacting']"
+        },
+        "list": {
+            "DEFAULT": "[data-reach-combobox-list]"
+        },
+        "option": {
+            "DEFAULT": "[data-reach-combobox-option]",
+            "highlighted": "[data-highlighted]"
+        },
+        "option-text": {
+            "DEFAULT": "[data-reach-combobox-option-text]"
+        }
+    },
+    "dialog": {
+        "overlay": {
+            "DEFAULT": "[data-reach-dialog-overlay]"
+        },
+        "content": {
+            "DEFAULT": "[data-reach-dialog-content]"
+        }
+    },
+    "disclosure": {
+        "button": {
+            "DEFAULT": "[data-reach-disclosure-button]",
+            "open": "[data-state='open']",
+            "collapsed": "[data-state='collapsed']"
+        },
+        "panel": {
+        "DEFAULT": "[data-reach-disclosure-panel]",
+            "open": "[data-state='open']",
+            "collapsed": "[data-state='collapsed']"
+        }
+    },
+    "listbox": {
+        "input": {
+            "DEFAULT": "[data-reach-listbox-input]",
+            "idle": "[data-state='idle']"
+        },
+        "button": {
+            "DEFAULT": "[data-reach-listbox-button]",
+            "expanded": "[aria-expanded='true']",
+            "disabled": "[aria-disabled='true']"
+        },
+        "arrow": {
+        "DEFAULT": "[data-reach-listbox-arrow]",
+            "expanded": "[data-expanded='true']"
+        },
+        "popover": {
+            "DEFAULT": "[data-reach-listbox-popover]",
+            "hidden": "[hidden]"
+        },
+        "list": {
+            "DEFAULT": "[data-reach-listbox-list]"
+        },
+        "option": {
+            "DEFAULT": "[data-reach-listbox-option]",
+            "selected": "[data-current-selected]",
+            "roving": "[data-current-nav]",
+            "current": "[data-current-nav]",
+            "disabled": "[aria-disabled='true']"
+        },
+        "group": {
+            "DEFAULT": "[data-reach-listbox-group]"
+        },
+        "group-label": {
+            "DEFAULT": "[data-reach-listbox-group-label]"
+        }
+    },
+    "menu": {
+        "list": {
+            "DEFAULT": "[data-reach-menu-list]"
+        },
+        "popover": {
+            "DEFAULT": "[data-reach-menu-popover]"
+        },
+        "items": {
+            "DEFAULT": "[data-reach-menu-items]"
+        },
+        "item": {
+            "DEFAULT": "[data-reach-menu-item]",
+            "selected": "[data-selected]"
+        }
+    },
+    "skip-nav": {
+        "DEFAULT": "[data-reach-skip-link]"
+    },
+    "slider": {
+        "DEFAULT": "[data-reach-slider]",
+        "disabled": "[data-disabled]",
+        "horizontal": "[data-orientation='horizontal']",
+        "vertical": "[data-orientation='vertical']",
+        "track": {
+            "DEFAULT": "[data-reach-slider-track]",
+            "disabled": "[data-disabled]",
+            "horizontal": "[data-orientation='horizontal']",
+            "vertical": "[data-orientation='vertical']"
+        },
+        "range": {
+            "DEFAULT": "[data-reach-slider-range]",
+            "disabled": "[data-disabled]",
+            "horizontal": "[data-orientation='horizontal']",
+            "vertical": "[data-orientation='vertical']"
+        },
+        "marker": {
+            "DEFAULT": "[data-reach-slider-marker]",
+            "disabled": "[data-disabled]",
+            "horizontal": "[data-orientation='horizontal']",
+            "vertical": "[data-orientation='vertical']",
+            "at-value": "[data-state='at-value']",
+            "over-value": "[data-state='over-value']",
+            "under-value": "[data-state='under-value']"
+        },
+        "handle": {
+            "DEFAULT": "[data-reach-slider-handle]",
+            "disabled": "[aria-disabled]",
+            "horizontal": "[aria-orientation='horizontal']",
+            "vertical": "[aria-orientation='vertical']"
+        }
+    },
+    "tabs": {
+        "DEFAULT": "[data-reach-tabs]",
+        "list": {
+            "DEFAULT": "[data-reach-tab-list]"
+        },
+        "panels": {
+            "DEFAULT": "[data-reach-tab-panels]"
+        },
+        "tab": {
+            "DEFAULT": "[data-reach-tab]",
+            "selected": "[data-selected]"
+        },
+        "tab-panel": {
+            "DEFAULT": "[data-reach-tab-panel]"
+        }
+    },
+    "tooltip": {
+        "DEFAULT": "[data-reach-tooltip]"
+    }
+}
