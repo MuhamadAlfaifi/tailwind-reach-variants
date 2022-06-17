@@ -1,3 +1,4 @@
+const defaultTo = require('./utils/default-to.js');
 const attributesSelectors = require('./reach-css-selectors.json');
 
 function plugin({ addVariant, matchVariant }) {
